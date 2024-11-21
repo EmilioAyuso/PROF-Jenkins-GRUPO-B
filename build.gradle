@@ -35,6 +35,7 @@ application {
 
 test{
    useJUnit()
+   finalizedBy jacocoTestReport
 }
 
 jacocoTestReport {
